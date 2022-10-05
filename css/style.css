@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.content {
+    padding: 48px 0 60px 0;
+    max-width: 810px;
+    margin: 0px auto;
+    font-family: "Lato";
+    
+}
+.title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 60px;
+    color: #1E212C;
+    margin: 0px 0px 92px 0px;
+}
+.my-photo {
+    max-width: 100%;
+    border-radius: 4px;
+    margin: 0px 0px 60px 0px;
+}
+.text-bold {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E212C;
+    font-size: 20px;
+    line-height: 30px;
+}
+.text-bold__container{
+    margin: 0px 0px 24px 0px;
+}
+.text-bold-item__container{
+    margin: 0px 0px 48px 0px;
+    padding: 0px 0px 0px 58px;
+}
+.text-regular {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #424551;
+}
+.first-paragraph,
+.third-paragraph{
+    margin: 0px 0px 24px 0px;
+}
+.second-paragraph {
+    margin: 0px 0px 48px 0px;
+}
+.list-items {
+    margin: 0px 0px 24px 0px;
+    padding: 0px 0px 0px 32px;
+}
+.home-practice{
+    text-align: justify;
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.text {
+    margin-bottom: 30px;
+    
+}
+.text__container {
+    background-color: rgba(0, 255, 0, 0.582);
+    
+}
+.block {
+    margin-bottom: 30px;
+}
+.block__container {
+    background-image: url("../img/scottish_fold.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    
+}
+.item__container {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f85032+0,f16f5c+50,f02f17+71,e73827+100 */
+        background: #f85032;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f02f17 71%, #e73827 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f02f17 71%, #e73827 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #f85032 0%, #f16f5c 50%, #f02f17 71%, #e73827 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f85032', endColorstr='#e73827', GradientType=0);
+        /* IE6-9 */
+    margin-bottom: 30px;   
+}
+.few-images {
+    margin-bottom: 500px;
+}
+.few-images__container {
+    background: url("../img/scottish_fold.jpg") right/200px no-repeat, url("../img/085bbde680dd4ce20739d4994e169cab.jpg") 50% no-repeat fixed, url("../img/scottish_fold.jpg") 0 0/200px no-repeat;
+
+}
